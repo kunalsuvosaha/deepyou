@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | True You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: lavender;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            color: blue;
+        }
+        p {
+            color: gray;
+        }
+        .test-box {
+            display: inline-block;
+            background-color: pink;
+            padding: 20px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .test-box:hover {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to True You!</h1>
+        <p>Discover insights about yourself with our personality test.</p>
+        
+        <!-- Clickable Box -->
+        <div class="test-box" onclick="startTest()">
+            Test Your Personality
+        </div>
+    </div>
+
+    <script>
+        function startTest() {
+            window.location.href = "testpage10.html";
+        }
+    </script>
+</body>
+</html>
